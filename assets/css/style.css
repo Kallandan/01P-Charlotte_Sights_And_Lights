@@ -1,9 +1,10 @@
-/*header or .hero-image{
+body {
     background-image: url("../jpg/Charlotte Skyline.jpg");
     background-color: #cccccc;
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     position: relative;
   }
