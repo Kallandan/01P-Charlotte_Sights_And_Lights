@@ -1,5 +1,5 @@
 body {
-    background-image: url("../jpg/Charlotte Skyline.jpg");
+    background-image: url("../jpg/chartlotteskyline.jpeg");
     background-color: #cccccc;
     height: 500px;
     background-position: center;
@@ -7,4 +7,9 @@ body {
     background-attachment: fixed;
     background-size: cover;
     position: relative;
+<<<<<<< HEAD
   }
+=======
+  }
+ */
+>>>>>>> ad808a908bd94f8bc615b985b07a2487b24758bf
