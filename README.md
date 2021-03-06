@@ -1,1 +1,7 @@
-# 01P-Charlotte_Sights_And_Lights
+# 01 Project - Charlotte's Sights and Lights
+
+![Project Screenshot](./assets/jpg/charlotteskyline.jpeg)
+
+# Description: 
+
+# Deployment Link: 
