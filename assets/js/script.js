@@ -1,7 +1,13 @@
 
-var dateTime = moment().format('MMMM Do YYYY, h:mm:ss a');
-$("#currentDay").text(dateTime);
+function displayTime() {
+    var date = moment().format('MMMM Do YYYY');
+    $("#date").text(date);
+    var rightNow = moment().format("h:mm:ss a");
+    $("#now").text(rightNow);
 
+}
+
+setInterval(displayTime, 1000);
 
 
 
