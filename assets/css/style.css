@@ -12,7 +12,77 @@ body {
 .timebox {
   flex: wrap;
   justify-content: right;
-  border: blueviolet;
+  color:rgb(195, 157, 231);;
 }
 
+.display-4{
+  text-align: center;
+  color:rgb(195, 157, 231);
 
+}
+
+.container2{
+  text-align: center;
+  justify-content: center;
+  color:rgb(195, 157, 231);
+}
+
+.row {
+  display: -webkit-flex;
+  display: flex;
+  
+}
+
+.column {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  float: right;
+  padding: 10px;
+  text-align: center;
+  color: rgb(195, 157, 231);
+  
+  
+}
+
+.column2 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  float: right;
+  padding: 10px;
+  text-align: center;
+  color: rgb(195, 157, 231);
+  
+}
+
+.row2 {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.column3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  
+  padding: 10px;
+  text-align: center;
+  color: rgb(195, 157, 231);
+  
+}
+.column4 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  float: right;
+  padding: 10px;
+  text-align: center;
+  color:rgb(195, 157, 231);
+  
+}
+
+.button{
+  justify-content: right;
+
+}
