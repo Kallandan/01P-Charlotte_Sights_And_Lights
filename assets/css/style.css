@@ -9,22 +9,34 @@ body {
     position: relative;
   }
 
+  .header {
+    background-color:rgb(54, 11, 94);
+    height: 150px;
+  }
+
 .timebox {
   flex: wrap;
   justify-content: right;
-  color:rgb(195, 157, 231);;
+  color:rgb(195, 157, 231);
+  padding-left: 8px;
 }
 
-.display-4{
+.display-4 {
   text-align: center;
   color:rgb(195, 157, 231);
 
 }
 
-.container2{
+.container2 {
+  padding-top: 25px;
   text-align: center;
   justify-content: center;
-  color:rgb(195, 157, 231);
+  color:rgb(46, 6, 90);
+  height: 100px;
+  max-width: 500%;
+  background-color:rgb(195, 157, 231);
+  opacity:0.3;
+
 }
 
 .row {
