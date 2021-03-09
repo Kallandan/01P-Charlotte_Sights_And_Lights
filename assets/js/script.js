@@ -1,6 +1,6 @@
 
 function displayTime() {
-    var date = moment().format('MMMM Do YYYY');
+    var date = moment().format('MMMM Do, YYYY');
     $("#date").text(date);
     var rightNow = moment().format("h:mm:ss a");
     $("#now").text(rightNow);
