@@ -1,4 +1,10 @@
 
+
+
+
+
+
+
 function displayTime() {
     var date = moment().format('MMMM Do YYYY');
     $("#date").text(date);
@@ -26,3 +32,8 @@ function getApi(inputVal) {
 }
 
 getApi("Paris")
+
+
+alertButton.on("click", function () {
+    
+})
