@@ -50,20 +50,14 @@ body {
   -ms-flex: 1;
   flex: 1;
   float: right;
-<<<<<<< HEAD
-  padding: 20px;
-=======
   padding: 50px;
->>>>>>> b56c413eb2715132c826ee4b95a12e05680d496a
   text-align: center;
   color: rgb(135, 39, 224);
   height: 400px;
   max-width: 200%;
   background-color:rgb(195, 157, 231);
   opacity:0.5;
-  
-  
-  
+    
 }
 
 .column2 {
@@ -71,10 +65,6 @@ body {
   -ms-flex: 1;
   flex: 1;
   float: right;
-<<<<<<< HEAD
-  padding: 20px;
-=======
->>>>>>> b56c413eb2715132c826ee4b95a12e05680d496a
   text-align: center;
   color:rgb(135, 39, 224);
   padding: 50px;
@@ -94,11 +84,7 @@ body {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-<<<<<<< HEAD
-  padding: 20px;
-=======
   padding: 10px;
->>>>>>> b56c413eb2715132c826ee4b95a12e05680d496a
   text-align: center;
   color: rgb(135, 39, 224);
   height: 400px;
