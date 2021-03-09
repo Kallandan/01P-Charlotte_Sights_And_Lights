@@ -24,7 +24,12 @@ body {
 .container2{
   text-align: center;
   justify-content: center;
-  color:rgb(195, 157, 231);
+  color:rgb(46, 6, 90);
+  height: 100px;
+  max-width: 500%;
+  background-color:rgb(195, 157, 231);
+  opacity:0.3;
+
 }
 
 .row {
