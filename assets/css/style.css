@@ -41,7 +41,6 @@ body {
 }
 
 .row {
-  display: -webkit-flex;
   display: flex;
   
 }
