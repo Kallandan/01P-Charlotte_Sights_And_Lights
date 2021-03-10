@@ -30,7 +30,23 @@ $("#getfood").on("click", function(e){
 })
 
 
+function myFunction() {
+    var str = "Best Greenway Parks!";
+    var result = str.link("https://www.yelp.com/search?find_desc=Best%20Greenway%20parks&find_loc=Charlotte%2C%20NC");
+    document.getElementById("demo").innerHTML = result;
+  }
 
+  function myFunction2() {
+    var str = "Best Parks and Recreation!";
+    var result = str.link("https://www.yelp.com/search?find_desc=Best%20Parks%20and%20Recreation&find_loc=Charlotte%2C%20NC");
+    document.getElementById("demo2").innerHTML = result;
+  }
+
+  function myFunction3() {
+    var str = "Best Nature and Preserve Parks!";
+    var result = str.link("https://www.yelp.com/search?find_desc=Best%20Nature%20and%20Preserve%20Parks&find_loc=Charlotte%2C%20NC");
+    document.getElementById("demo3").innerHTML = result;
+  }
 
 
 
