@@ -26,27 +26,24 @@ h2 {
 }
 
 .display-4 {
+  flex: wrap;
   text-align: center;
   color:rgb(195, 157, 231);
-  padding-bottom: 20px;
-
 }
 
 .container2 {
-  padding-top: 25px;
+  flex: wrap;
+  padding-top: 20px;
   text-align: center;
   justify-content: center;
-  color:rgb(30, 3, 59);
-  height: 200px;
+  color:rgb(46, 6, 90);
+  height: 150px;
   max-width: 500%;
-  background-color:rgb(195, 157, 231);
-  opacity:0.2;
-  padding: 35px 70px 50px 90px;
+  background-color: rgba(195, 157, 231, 0.2);
 }
 
 .row {
   display: flex;
-  
 }
 
 .column {
@@ -56,12 +53,14 @@ h2 {
   float: right;
   padding: 50px;
   text-align: center;
-  color: rgb(135, 39, 224);
+  color: rgb(54, 5, 99);
   height: 400px;
   max-width: 200%;
   background-color:rgb(195, 157, 231);
   opacity:0.5;
-    
+  
+  
+  
 }
 
 .column2 {
@@ -70,7 +69,7 @@ h2 {
   flex: 1;
   float: right;
   text-align: center;
-  color:rgb(135, 39, 224);
+  color:rgb(54, 5, 99);
   padding: 50px;
   height: 400px;
   max-width: 200%;
@@ -90,7 +89,7 @@ h2 {
   flex: 1;
   padding: 10px;
   text-align: center;
-  color: rgb(135, 39, 224);
+  color: rgb(54, 5, 99);
   height: 400px;
   max-width: 200%;
   background-color:rgb(195, 157, 231);
@@ -105,7 +104,7 @@ h2 {
   float: right;
   padding: 20px;
   text-align: center;
-  color:rgb(116, 18, 207);
+  color:rgb(54, 5, 99);
   height: 400px;
   max-width: 200%;
   background-color:rgb(195, 157, 231);

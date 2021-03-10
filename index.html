@@ -6,6 +6,7 @@
   <title>Queen City: Sights and Lights</title>
   <link rel="stylesheet" href="./assets/jpg/charlotteskyine.jpeg" />
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
 </head>
 
@@ -14,84 +15,154 @@
     <nav class="timebox">
       <p id="date"></p>
       <p id="now"></p>
+      <p id="temp"></p>
+      <p id="weather"></p>
     </nav>
     <h1 class="display-4">Charlotte Sights & Lights</h1>
     <p class="lead"></p>
     </p>
   </div>
 
- 
+
 
   <div class="container2" id="history">
     <h1>HISTORY</h1>
-    <p>Charlotte is a gateway to the American South and a great introduction to the culture and turbulent history of the region. 
-      Though previously known as a business centre, the tourism industry has brought some great attractions and tours to the city. 
-      Charlotte looks like a brand new city, but there’s a lot of history here. Its roots run deep in the Old South, way back before 
-      the American Revolution. Today, it is one of America’s largest banking centers and one of the nation’s fastest-growing metropolitan 
-      areas. Newcomers roll in daily from across the United States and around the globe. There’s a sense of possibility and of change so 
-      strong that it’s energizing—and magnetic. Charlotte is a place that asks you to dig in, to find connections and to make history here yourself.</p>
+    <p>Charlotte is a gateway to the American South and a great introduction to the culture and turbulent history of the
+      region.
+      Though previously known as a business centre, the tourism industry has brought some great attractions and tours to
+      the city.
+      Charlotte looks like a brand new city, but there’s a lot of history here. Its roots run deep in the Old South, way
+      back before
+      the American Revolution. Today, it is one of America’s largest banking centers and one of the nation’s
+      fastest-growing metropolitan
+      areas. Newcomers roll in daily from across the United States and around the globe. There’s a sense of possibility
+      and of change so
+      strong that it’s energizing—and magnetic. Charlotte is a place that asks you to dig in, to find connections and to
+      make history here yourself.</p>
 
   </div>​
   <div class="row">
     <div class="column">
       <h2>RESTAURANTS</h2>
-      <P>Charlotte has a wide variety of restaurant options that are sprinkled all over the city. Ranging from 
-        high end restuarants, to authentic international restuartans, to the smaller family-owned diners. Charlottte has all 
+      <P>Charlotte has a wide variety of restaurant options that are sprinkled all over the city. Ranging from
+        high end restuarants, to authentic international restuartans, to the smaller family-owned diners. Charlottte has
+        all
         the options to satisfy your appetite.</P>
-        
-        <div id="mexican" class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-          <label class="form-check-label" for="flexCheckDefault">
-            Mexican
-          </label>
-        </div>
-        <div id="asian" class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-          <label class="form-check-label" for="flexCheckDefault">
-            Asian
-          </label>
-        </div>
-        <div id="dives" class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-          <label class="form-check-label" for="flexCheckDefault">
-            Dives/Diners
-          </label>
-        </div>
-        <div id="highend" class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-          <label class="form-check-label" for="flexCheckDefault">
-            High End
-          </label>
-        </div>
+
+      <div id="mexican" class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Mexican
+        </label>
+      </div>
+      <div id="asian" class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Asian
+        </label>
+      </div>
+      <div id="dives" class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Dives/Diners
+        </label>
+      </div>
+      <div id="highend" class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          High End
+        </label>
+      </div>
+      <button id="getfood" type="button" class="btn btn-primary btn-lg right">SEARCH</button>
     </div>
     <div class="column2">
       <h2>PARKS</h2>
-      <P>When you need a breath of fresh air, Charlotte has plenty of grassy parks and green spaces. Whether you’re looking to 
-        get your heart pumping or just want to soak up an extra dose of vitamin D, these spots will get you a little more 
+      <P>When you need a breath of fresh air, Charlotte has plenty of grassy parks and green spaces. Whether you’re
+        looking to
+        get your heart pumping or just want to soak up an extra dose of vitamin D, these spots will get you a little
+        more
         acquainted with Mother Nature.</P>
+
+      <h6>Click buttons:</h6>
+
+      <button onclick="myFunction()">Greenway Parks</button>
+
+      <p id="demo"></p>
+
+
+      <button onclick="myFunction2()">Parks and Recreation</button>
+
+      <p id="demo2"></p>
+
+
+      <button onclick="myFunction3()">Nature and Preserve Parks</button>
+
+      <p id="demo3"></p>
+
+
+
     </div>
   </div>
 
   </div>​<div class="row2">
     <div class="column3">
       <h2>ENTERTAINMENT</h2>
-      <P>With amusement parks, art museums, soulful entertainment, exciting sports, delicious dining & more, you'll never run 
-        out of things to do in the Queen City. Whether you’re looking for unique brewery experiences, museums, live music,
-       shopping, sports, outdoor adventure or family fun, Charlotte’s got it! </P>
+      <P>With amusement parks, art museums, soulful entertainment, exciting sports, delicious dining & more, you'll
+        never run
+        out of things to do in the Queen City. Whether you’re looking for unique brewery experiences, museums, live
+        music,
+        shopping, sports, outdoor adventure or family fun, Charlotte’s got it! </P>
+
+      <h6>Click buttons:</h6>
+
+      <button onclick="myFunction4()">Music Venues</button>
+
+      <p id="demo4"></p>
+
+
+      <button onclick="myFunction5()">Performing Arts Venues</button>
+
+      <p id="demo5"></p>
+
+
+      <button onclick="myFunction6()">Shopping</button>
+
+      <p id="demo6"></p>
+
+
+      <button onclick="myFunction7()">Sporting Events</button>
+
+      <p id="demo7"></p>
+
+
+      <button onclick="myFunction8()">Bars</button>
+
+      <p id="demo8"></p>
+
+
+<button onclick="myFunction9()">Local Breweries</button>
+
+<p id="demo9"></p>
+
+
+
+
     </div>
     <div class="column4">
       <h2>HOTELS</h2>
-      <P>Charlotte is a developing tourism industry and it can be difficult to figure out exactly where to stay. This large 
-        and vibrant city has a variety of hotel locations depending on your needs. That’s where we come in to help you figure out 
-        the best place to stay in Charlotte. Whether you’re looking to save cash, 
+      <P>Charlotte is a developing tourism industry and it can be difficult to figure out exactly where to stay. This
+        large
+        and vibrant city has a variety of hotel locations depending on your needs. That’s where we come in to help you
+        figure out
+        the best place to stay in Charlotte. Whether you’re looking to save cash,
         or want somewhere you can take the family, we’ve got you covered.</P>
     </div>
   </div>
 
   <div class="container">
-  
-      <button type="button" class="btn btn-primary btn-lg right">SEARCH</button>
-    
+
+    <button id="clearsearch" type="button" class="btn btn-primary btn-lg right">SEARCH</button>
+
   </div>
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
