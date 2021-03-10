@@ -11,7 +11,7 @@ body {
 
   .header {
     background-color:rgb(54, 11, 94);
-    height: 230px;
+    height: 250px;
   }
 
 h2 {
@@ -23,6 +23,8 @@ h2 {
   justify-content: right;
   color:rgb(195, 157, 231);
   padding-left: 8px;
+  font-family: Garamond;
+  font-size: 18px;
 }
 
 .display-4 {
