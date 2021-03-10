@@ -34,6 +34,12 @@ function getApi(inputVal) {
 getApi("Paris")
 
 
-alertButton.on("click", function () {
+getFood.on("click", function () {
     
-})
+
+});
+
+$("#clearsearch").on("click", function () {
+    window.location.href="index.html"
+});
+
