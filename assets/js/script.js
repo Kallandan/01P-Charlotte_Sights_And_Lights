@@ -37,3 +37,23 @@ getApi("Paris")
 alertButton.on("click", function () {
     
 })
+
+function myFunction() {
+    var str = "Best Greenway Parks!";
+    var result = str.link("https://www.yelp.com/search?find_desc=best%20greenway%20parks&find_loc=Charlotte%2C%20NC");
+    document.getElementById("demo").innerHTML = result;
+  }
+
+  
+  function myFunction2() {
+    var str = "Best Parks and Recreation!";
+    var result = str.link("https://www.yelp.com/search?find_desc=best%20parks%20and%20recreation&find_loc=Charlotte%2C%20NC");
+    document.getElementById("demo2").innerHTML = result;
+  }
+
+  
+  function myFunction3() {
+    var str = "Best Nature and Preserve Parks!";
+    var result = str.link("https://www.yelp.com/search?find_desc=best%20nature%20and%20preserve%20parks&find_loc=Charlotte%2C%20NC");
+    document.getElementById("demo3").innerHTML = result;
+  }
