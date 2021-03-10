@@ -22,27 +22,24 @@ body {
 }
 
 .display-4 {
+  flex: wrap;
   text-align: center;
   color:rgb(195, 157, 231);
-
 }
 
 .container2 {
-  padding-top: 25px;
+  flex: wrap;
+  padding-top: 20px;
   text-align: center;
   justify-content: center;
   color:rgb(46, 6, 90);
-  height: 100px;
+  height: 150px;
   max-width: 500%;
-  background-color:rgb(195, 157, 231);
-  opacity:0.3;
-
+  background-color: rgba(195, 157, 231, 0.2);
 }
 
 .row {
-  display: -webkit-flex;
   display: flex;
-  
 }
 
 .column {
@@ -50,11 +47,10 @@ body {
   -ms-flex: 1;
   flex: 1;
   float: right;
-  padding: 10px;
+  padding: 50px;
   text-align: center;
   color: rgb(195, 157, 231);
-  
-  
+  background-color:rgba(54, 11, 94, 0.4);
 }
 
 .column2 {
@@ -62,10 +58,9 @@ body {
   -ms-flex: 1;
   flex: 1;
   float: right;
-  padding: 10px;
   text-align: center;
   color: rgb(195, 157, 231);
-  
+  background-color:rgba(54, 11, 94, 0.4);
 }
 
 .row2 {
@@ -77,10 +72,10 @@ body {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  
   padding: 10px;
   text-align: center;
   color: rgb(195, 157, 231);
+  background-color:rgba(54, 11, 94, 0.4);
   
 }
 .column4 {
@@ -88,10 +83,10 @@ body {
   -ms-flex: 1;
   flex: 1;
   float: right;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   color:rgb(195, 157, 231);
-  
+  background-color:rgba(54, 11, 94, 0.4);
 }
 
 .button{
