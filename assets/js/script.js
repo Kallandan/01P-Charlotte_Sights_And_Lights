@@ -45,61 +45,50 @@ $("#expensive").on("click", function(){
 })
 */
 
-function myFunction() {
-    var str = "Best Greenway Parks!";
-    var result = str.link("https://www.yelp.com/search?find_desc=Best%20Greenway%20parks&find_loc=Charlotte%2C%20NC");
-    document.getElementById("demo").innerHTML = result;
-}
+$("#greenway").on("click", function(){
+    window.location.href = "https://www.yelp.com/search?find_desc=Best%20Greenway%20parks&find_loc=Charlotte%2C%20NC"
 
-function myFunction2() {
-    var str = "Best Parks and Recreation!";
-    var result = str.link("https://www.yelp.com/search?find_desc=Best%20Parks%20and%20Recreation&find_loc=Charlotte%2C%20NC");
-    document.getElementById("demo2").innerHTML = result;
-}
+})
 
-function myFunction3() {
-    var str = "Best Nature and Preserve Parks!";
-    var result = str.link("https://www.yelp.com/search?find_desc=Best%20Nature%20and%20Preserve%20Parks&find_loc=Charlotte%2C%20NC");
-    document.getElementById("demo3").innerHTML = result;
-}
+$("#recreation").on("click", function(){
+    window.location.href = "https://www.yelp.com/search?find_desc=Best%20Parks%20and%20Recreation&find_loc=Charlotte%2C%20NC"
+
+})
+$("#nature").on("click", function(){
+    window.location.href = "https://www.yelp.com/search?find_desc=best%20nature%20and%20preserve%20parks&find_loc=Charlotte%2C%20NC"
+
+})
+$("#music").on("click", function(){
+    window.location.href = "https://www.yelp.com/search?find_desc=best+music+venues&find_loc=Charlotte%2C+NC&ns=1"
+})
+$("#arts").on("click", function(){
+    window.location.href = "https://www.yelp.com/search?find_desc=Best%20Performing%20Arts%20Venues&find_loc=Charlotte%2C%20NC"
+   
+})
+
+$("#shops").on("click", function(){
+    window.location.href = "https://www.yelp.com/search?find_desc=best%20shopping&find_loc=Charlotte%2C%20NC"
+})
+
+$("#sports").on("click", function(){
+    window.location.href = "https://www.yelp.com/search?find_desc=best%20shopping&find_loc=Charlotte%2C%20NC"
+
+})
+
+$("#drinks").on("click", function(){
+    window.location.href = "https://www.yelp.com/search?find_desc=Best%20Bars&find_loc=Charlotte%2C%20NC"
+
+})
+
+$("#beers").on("click", function(){
+    window.location.href ="https://www.yelp.com/search?find_desc=Best%20Bars&find_loc=Charlotte%2C%20NC"
+
+})
 
 
+ 
 
-  function myFunction4() {
-    var str = "Best Music Venues!";
-    var result = str.link("https://www.yelp.com/search?find_desc=best+music+venues&find_loc=Charlotte%2C+NC&ns=1");
-    document.getElementById("demo4").innerHTML = result;
-  }
-
-  function myFunction5() {
-    var str = "Best Performing Arts Venues!";
-    var result = str.link("https://www.yelp.com/search?find_desc=Best%20Performing%20Arts%20Venues&find_loc=Charlotte%2C%20NC");
-    document.getElementById("demo5").innerHTML = result;
-  }
-
-  function myFunction6() {
-    var str = "Shopping!";
-    var result = str.link("https://www.yelp.com/search?find_desc=best%20shopping&find_loc=Charlotte%2C%20NC");
-    document.getElementById("demo6").innerHTML = result;
-  }
-
-  function myFunction7() {
-    var str = "Sporting Events!";
-    var result = str.link("https://www.yelp.com/search?find_desc=Sporting%20Events&find_loc=Charlotte%2C%20NC");
-    document.getElementById("demo7").innerHTML = result;
-  }
-
-  function myFunction8() {
-    var str = "Best Bars!";
-    var result = str.link("https://www.yelp.com/search?find_desc=Best%20Bars&find_loc=Charlotte%2C%20NC");
-    document.getElementById("demo8").innerHTML = result;
-  }
-
-  function myFunction9() {
-    var str = "Best Local Breweries!";
-    var result = str.link("https://www.yelp.com/search?find_desc=Best%20Bars&find_loc=Charlotte%2C%20NC");
-    document.getElementById("demo9").innerHTML = result;
-  }
+  
 
 /*$("#clearsearch").on("click", function () {
     window.location.href="index.html"
