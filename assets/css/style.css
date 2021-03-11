@@ -9,10 +9,14 @@ body {
     position: relative;
   }
 
+  @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
   .header {
     flex: wrap;
-    background-color:rgb(54, 11, 94);
+    -webkit-backdrop-filter: blur(10px);
+    background-color:rgba(54, 11, 94, 0.3);
+    backdrop-filter: blur(10px);
   }
+}
 
 h2 {
   text-shadow: 2px 2px 3px #150c25 ;
@@ -39,6 +43,7 @@ h2 {
   max-width: 500%;
   background-color: rgba(76, 50, 100, 0.4);
   padding-top: 10px;
+  backdrop-filter: blur(10px);
 }
 
 .row {
@@ -54,7 +59,8 @@ h2 {
   text-align: center;
   color: rgb(32, 2, 59);
   max-width: 200%;
-  background-color:rgba(195, 157, 231, 0.5);
+  background-color:rgba(195, 157, 231, 0.3);
+  backdrop-filter: blur(10px);
 }
 
 .column2 {
@@ -66,7 +72,8 @@ h2 {
   color:rgb(32, 2, 59);
   padding: 20px;
   max-width: 200%;
-  background-color:rgba(195, 157, 231, 0.5);
+  background-color:rgba(195, 157, 231, 0.3);
+  backdrop-filter: blur(10px);
 }
 
 .row2 {
@@ -82,7 +89,8 @@ h2 {
   text-align: center;
   color: rgb(32, 2, 59);
   max-width: 200%;
-  background-color:rgba(195, 157, 231, 0.5);
+  background-color:rgba(195, 157, 231, 0.3);
+  backdrop-filter: blur(10px);
 }
 .column4 {
   -webkit-flex: 1;
@@ -93,7 +101,8 @@ h2 {
   text-align: center;
   color:rgb(32, 2, 59);
   max-width: 200%;
-  background-color:rgba(195, 157, 231, 0.5);
+  background-color:rgba(195, 157, 231, 0.3);
+  backdrop-filter: blur(10px);
 }
 
     button {
