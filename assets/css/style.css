@@ -96,8 +96,10 @@ h2 {
   background-color:rgba(195, 157, 231, 0.5);
 }
 
-.button{
-  justify-content: right;
+.button  {
+  background-color:rgba(195, 157, 231, 0.5);
+  border: 2px solid rgb(32, 2, 59);
+  color: white;
 }
 
 .demo {
