@@ -100,7 +100,7 @@ $("#shops").on("click", function(){
 })
 
 $("#sports").on("click", function(){
-    window.location.href = "https://www.yelp.com/search?find_desc=best%20shopping&find_loc=Charlotte%2C%20NC"
+    window.location.href = "https://www.yelp.com/search?find_desc=Sporting%20Events&find_loc=Charlotte%2C%20NC"
 
 })
 
@@ -110,7 +110,7 @@ $("#drinks").on("click", function(){
 })
 
 $("#beers").on("click", function(){
-    window.location.href ="https://www.yelp.com/search?find_desc=Best%20Bars&find_loc=Charlotte%2C%20NC"
+    window.location.href ="https://www.yelp.com/search?find_desc=best%20local%20breweries&find_loc=Charlotte%2C%20NC"
 
 })
 
