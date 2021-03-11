@@ -40,6 +40,7 @@ $("#diners").on("click", function(){
 $("#expensive").on("click", function(){
     window.location.href = "https://www.yelp.com/search?find_desc=top%2010%20high%20end%20restaurants&find_loc=Charlotte%2C%20NC"
 })
+
 /*$("#getfood").on("click", function(e){
     e.preventDefault()
 })
