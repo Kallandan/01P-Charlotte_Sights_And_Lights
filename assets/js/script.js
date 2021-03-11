@@ -14,7 +14,7 @@ function getApi(inputVal) {
     fetch(requestUrl)
         .then(function (response) {
             return response.json();
-        }).then(function(data) {
+        }).then(function (data) {
             console.log(data);
             var temp = data.main.temp
             var weather = data.weather[0].main
@@ -22,22 +22,46 @@ function getApi(inputVal) {
             $("#weather").append(weather)
         })
 }
-
 getApi("Charlotte")
 
-$("#mexican").on("click", function(){
+
+function hotelApi() {
+    var hotelApiKey = "7bccf7e635msh675679cd78f6b84p13e724jsn4b7861efa475";
+    var hotelApi = ""
+
+    fetch("https://hotels-com-free.p.rapidapi.com/suggest/v1.7/json?query=Charlotte&locale=en_US", {
+        "method": "GET",
+        "headers": {
+            "x-rapidapi-key": hotelApiKey,
+            "x-rapidapi-host": "hotels-com-free.p.rapidapi.com"
+        }
+    })
+        .then(response => {
+            console.log("--------", response);
+        })
+        .catch(err => {
+            console.error(err);
+        });
+
+}
+
+hotelApi()
+
+
+
+$("#mexican").on("click", function () {
     window.location.href = "https://www.yelp.com/search?find_desc=Top+10+Mexican+Restaurants&find_loc=Charlotte%2C+NC&ns=1"
 })
 
-$("#asian").on("click", function(){
+$("#asian").on("click", function () {
     window.location.href = "https://www.yelp.com/search?find_desc=top+10+asian+restaurants&find_loc=Charlotte%2C+NC&ns=1"
 })
 
-$("#diners").on("click", function(){
+$("#diners").on("click", function () {
     window.location.href = "https://www.yelp.com/search?find_desc=top+10+diners+&find_loc=Charlotte%2C+NC&ns=1"
 })
 
-$("#expensive").on("click", function(){
+$("#expensive").on("click", function () {
     window.location.href = "https://www.yelp.com/search?find_desc=top%2010%20high%20end%20restaurants&find_loc=Charlotte%2C%20NC"
 })
 
@@ -66,41 +90,41 @@ function myFunction3() {
 
 
 
-  function myFunction4() {
+function myFunction4() {
     var str = "Best Music Venues!";
     var result = str.link("https://www.yelp.com/search?find_desc=best+music+venues&find_loc=Charlotte%2C+NC&ns=1");
     document.getElementById("demo4").innerHTML = result;
-  }
+}
 
-  function myFunction5() {
+function myFunction5() {
     var str = "Best Performing Arts Venues!";
     var result = str.link("https://www.yelp.com/search?find_desc=Best%20Performing%20Arts%20Venues&find_loc=Charlotte%2C%20NC");
     document.getElementById("demo5").innerHTML = result;
-  }
+}
 
-  function myFunction6() {
+function myFunction6() {
     var str = "Shopping!";
     var result = str.link("https://www.yelp.com/search?find_desc=best%20shopping&find_loc=Charlotte%2C%20NC");
     document.getElementById("demo6").innerHTML = result;
-  }
+}
 
-  function myFunction7() {
+function myFunction7() {
     var str = "Sporting Events!";
     var result = str.link("https://www.yelp.com/search?find_desc=Sporting%20Events&find_loc=Charlotte%2C%20NC");
     document.getElementById("demo7").innerHTML = result;
-  }
+}
 
-  function myFunction8() {
+function myFunction8() {
     var str = "Best Bars!";
     var result = str.link("https://www.yelp.com/search?find_desc=Best%20Bars&find_loc=Charlotte%2C%20NC");
     document.getElementById("demo8").innerHTML = result;
-  }
+}
 
-  function myFunction9() {
+function myFunction9() {
     var str = "Best Local Breweries!";
     var result = str.link("https://www.yelp.com/search?find_desc=Best%20Bars&find_loc=Charlotte%2C%20NC");
     document.getElementById("demo9").innerHTML = result;
-  }
+}
 
 /*$("#clearsearch").on("click", function () {
     window.location.href="index.html"
