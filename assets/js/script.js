@@ -25,28 +25,43 @@ function getApi(inputVal) {
 
 getApi("Charlotte")
 
-$("#getfood").on("click", function(e){
-    e.preventDefault()
+$("#mexican").on("click", function(){
+    window.location.href = "https://www.yelp.com/search?find_desc=Top+10+Mexican+Restaurants&find_loc=Charlotte%2C+NC&ns=1"
 })
 
+$("#asian").on("click", function(){
+    window.location.href = "https://www.yelp.com/search?find_desc=top+10+asian+restaurants&find_loc=Charlotte%2C+NC&ns=1"
+})
+
+$("#diners").on("click", function(){
+    window.location.href = "https://www.yelp.com/search?find_desc=top+10+diners+&find_loc=Charlotte%2C+NC&ns=1"
+})
+
+$("#expensive").on("click", function(){
+    window.location.href = "https://www.yelp.com/search?find_desc=top%2010%20high%20end%20restaurants&find_loc=Charlotte%2C%20NC"
+})
+/*$("#getfood").on("click", function(e){
+    e.preventDefault()
+})
+*/
 
 function myFunction() {
     var str = "Best Greenway Parks!";
     var result = str.link("https://www.yelp.com/search?find_desc=Best%20Greenway%20parks&find_loc=Charlotte%2C%20NC");
     document.getElementById("demo").innerHTML = result;
-  }
+}
 
-  function myFunction2() {
+function myFunction2() {
     var str = "Best Parks and Recreation!";
     var result = str.link("https://www.yelp.com/search?find_desc=Best%20Parks%20and%20Recreation&find_loc=Charlotte%2C%20NC");
     document.getElementById("demo2").innerHTML = result;
-  }
+}
 
-  function myFunction3() {
+function myFunction3() {
     var str = "Best Nature and Preserve Parks!";
     var result = str.link("https://www.yelp.com/search?find_desc=Best%20Nature%20and%20Preserve%20Parks&find_loc=Charlotte%2C%20NC");
     document.getElementById("demo3").innerHTML = result;
-  }
+}
 
 
 
