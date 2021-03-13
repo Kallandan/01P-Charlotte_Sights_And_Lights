@@ -54,19 +54,27 @@ $(".something").on("click", function() {
 
 
 $("#mexican").on("click", function () {
-    window.location.href = "https://www.yelp.com/search?find_desc=Top+10+Mexican+Restaurants&find_loc=Charlotte%2C+NC&ns=1"
+    window.location.href = "https://www.yelp.com/search?find_desc=Top+10+Mexican+Restaurants&find_loc=Charlotte%2C+NC&ns=1";
+    var website = "https://www.yelp.com/search?find_desc=Top+10+Mexican+Restaurants&find_loc=Charlotte%2C+NC&ns=1";
+    window.localStorage.setItem('savedWebsite', JSON.stringify(website));
 })
 
 $("#asian").on("click", function () {
-    window.location.href = "https://www.yelp.com/search?find_desc=top+10+asian+restaurants&find_loc=Charlotte%2C+NC&ns=1"
+    window.location.href = "https://www.yelp.com/search?find_desc=top+10+asian+restaurants&find_loc=Charlotte%2C+NC&ns=1";
+    var website = "https://www.yelp.com/search?find_desc=top+10+asian+restaurants&find_loc=Charlotte%2C+NC&ns=1";
+    window.localStorage.setItem('savedWebsite', JSON.stringify(website));
 })
 
 $("#diners").on("click", function () {
-    window.location.href = "https://www.yelp.com/search?find_desc=top+10+diners+&find_loc=Charlotte%2C+NC&ns=1"
+    window.location.href = "https://www.yelp.com/search?find_desc=top+10+diners+&find_loc=Charlotte%2C+NC&ns=1";
+    var website = "https://www.yelp.com/search?find_desc=top+10+diners+&find_loc=Charlotte%2C+NC&ns=1";
+    window.localStorage.setItem('savedWebsite', JSON.stringify(website));
 })
 
 $("#expensive").on("click", function () {
-    window.location.href = "https://www.yelp.com/search?find_desc=top%2010%20high%20end%20restaurants&find_loc=Charlotte%2C%20NC"
+    window.location.href = "https://www.yelp.com/search?find_desc=top%2010%20high%20end%20restaurants&find_loc=Charlotte%2C%20NC";
+    var website = "https://www.yelp.com/search?find_desc=top%2010%20high%20end%20restaurants&find_loc=Charlotte%2C%20NC";
+    window.localStorage.setItem('savedWebsite', JSON.stringify(website));
 })
 
 /*$("#getfood").on("click", function(e){
@@ -75,43 +83,54 @@ $("#expensive").on("click", function () {
 */
 
 $("#greenway").on("click", function(){
-    window.location.href = "https://www.yelp.com/search?find_desc=Best%20Greenway%20parks&find_loc=Charlotte%2C%20NC"
-
+    window.location.href = "https://www.yelp.com/search?find_desc=Best%20Greenway%20parks&find_loc=Charlotte%2C%20NC";
+    var website = "https://www.yelp.com/search?find_desc=Best%20Greenway%20parks&find_loc=Charlotte%2C%20NC";
+    window.localStorage.setItem('savedWebsite', JSON.stringify(website));
 })
 
 $("#recreation").on("click", function(){
-    window.location.href = "https://www.yelp.com/search?find_desc=Best%20Parks%20and%20Recreation&find_loc=Charlotte%2C%20NC"
-
+    window.location.href = "https://www.yelp.com/search?find_desc=Best%20Parks%20and%20Recreation&find_loc=Charlotte%2C%20NC";
+    var website = "https://www.yelp.com/search?find_desc=Best%20Parks%20and%20Recreation&find_loc=Charlotte%2C%20NC";
+    window.localStorage.setItem('savedWebsite', JSON.stringify(website));
 })
 $("#nature").on("click", function(){
-    window.location.href = "https://www.yelp.com/search?find_desc=best%20nature%20and%20preserve%20parks&find_loc=Charlotte%2C%20NC"
-
+    window.location.href = "https://www.yelp.com/search?find_desc=best%20nature%20and%20preserve%20parks&find_loc=Charlotte%2C%20NC";
+    var website = "https://www.yelp.com/search?find_desc=best%20nature%20and%20preserve%20parks&find_loc=Charlotte%2C%20NC";
+    window.localStorage.setItem('savedWebsite', JSON.stringify(website));
 })
 $("#music").on("click", function(){
-    window.location.href = "https://www.yelp.com/search?find_desc=best+music+venues&find_loc=Charlotte%2C+NC&ns=1"
+    window.location.href = "https://www.yelp.com/search?find_desc=best+music+venues&find_loc=Charlotte%2C+NC&ns=1";
+    var website = "https://www.yelp.com/search?find_desc=best+music+venues&find_loc=Charlotte%2C+NC&ns=1";
+    window.localStorage.setItem('savedWebsite', JSON.stringify(website));
 })
 $("#arts").on("click", function(){
-    window.location.href = "https://www.yelp.com/search?find_desc=Best%20Performing%20Arts%20Venues&find_loc=Charlotte%2C%20NC"
-   
+    window.location.href = "https://www.yelp.com/search?find_desc=Best%20Performing%20Arts%20Venues&find_loc=Charlotte%2C%20NC";
+    var website = "https://www.yelp.com/search?find_desc=Best%20Performing%20Arts%20Venues&find_loc=Charlotte%2C%20NC";
+    window.localStorage.setItem('savedWebsite', JSON.stringify(website));
 })
 
 $("#shops").on("click", function(){
-    window.location.href = "https://www.yelp.com/search?find_desc=best%20shopping&find_loc=Charlotte%2C%20NC"
+    window.location.href = "https://www.yelp.com/search?find_desc=best%20shopping&find_loc=Charlotte%2C%20NC";
+    var website = "https://www.yelp.com/search?find_desc=best%20shopping&find_loc=Charlotte%2C%20NC";
+    window.localStorage.setItem('savedWebsite', JSON.stringify(website));
 })
 
 $("#sports").on("click", function(){
-    window.location.href = "https://www.yelp.com/search?find_desc=Sporting%20Events&find_loc=Charlotte%2C%20NC"
-
+    window.location.href = "https://www.yelp.com/search?find_desc=Sporting%20Events&find_loc=Charlotte%2C%20NC";
+    var website = "https://www.yelp.com/search?find_desc=Sporting%20Events&find_loc=Charlotte%2C%20NC";
+    window.localStorage.setItem('savedWebsite', JSON.stringify(website));
 })
 
 $("#drinks").on("click", function(){
-    window.location.href = "https://www.yelp.com/search?find_desc=Best%20Bars&find_loc=Charlotte%2C%20NC"
-
+    window.location.href = "https://www.yelp.com/search?find_desc=Best%20Bars&find_loc=Charlotte%2C%20NC";
+    var website = "https://www.yelp.com/search?find_desc=Best%20Bars&find_loc=Charlotte%2C%20NC";
+    window.localStorage.setItem('savedWebsite', JSON.stringify(website));
 })
 
 $("#beers").on("click", function(){
-    window.location.href ="https://www.yelp.com/search?find_desc=best%20local%20breweries&find_loc=Charlotte%2C%20NC"
-
+    window.location.href = "https://www.yelp.com/search?find_desc=best%20local%20breweries&find_loc=Charlotte%2C%20NC";
+    var website = "https://www.yelp.com/search?find_desc=best%20local%20breweries&find_loc=Charlotte%2C%20NC";
+    window.localStorage.setItem('savedWebsite', JSON.stringify(website));
 })
 
 
