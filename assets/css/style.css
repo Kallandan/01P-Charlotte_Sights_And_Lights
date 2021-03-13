@@ -1,5 +1,5 @@
 body {
-    background-image: url("../jpg/chartlotteskyline.jpeg");
+    background-image: url("../jpg/charlotteskyline.jpeg");
     background-color: #cccccc;
     height: 500px;
     background-position: center;
@@ -102,7 +102,7 @@ h2 {
   color:rgb(32, 2, 59);
   max-width: 200%;
   background-color:rgba(195, 157, 231, 0.3);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px); 
 }
 
 button {
